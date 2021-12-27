@@ -1,0 +1,22 @@
+{
+  "name": "api-store",
+  "version": "1.0.0",
+  "description": "A simple static api store",
+  "bugs": {
+    "url": "https://github.com/Codasquieves/api-store/issues"
+  },
+  "homepage": "https://github.com/Codasquieves/api-store#readme",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "api",
+    "store",
+    "swagger"
+  ],
+  "author": "Ivan Codasquieves",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
