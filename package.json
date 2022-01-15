@@ -2,13 +2,6 @@
   "name": "api-store",
   "version": "1.0.0",
   "description": "A simple static api store",
-  "bugs": {
-    "url": "https://github.com/Codasquieves/api-store/issues"
-  },
-  "homepage": "https://github.com/Codasquieves/api-store#readme",
-  "scripts": {
-    "build": "tsc -p ."
-  },
   "keywords": [
     "api",
     "store",
@@ -16,7 +9,12 @@
   ],
   "author": "Ivan Codasquieves",
   "license": "ISC",
+  "scripts": {
+    "server": "nodemon -e js,html,json server.js"
+  },
   "devDependencies": {
-    "typescript": "^4.4.3"
+    "finalhandler": "^1.1.2",
+    "nodemon": "^2.0.15",
+    "server-static": "^2.0.5"
   }
 }

@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.select-api {
+  padding: 1rem;
+  margin: auto;
+  font-family: "Courier New", Courier, monospace;
+  display: flow-root;
+  padding-bottom: 1rem;
+}
+
+.select-api .logo {
+  max-width: 100px;
+  float: left;
+}
+
+.select-api .content select {
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px 10px;
+  min-width: 350px;
+}
